@@ -1,0 +1,208 @@
+/*
+Lupus In Tabula
+Created by Edoardo Morassutto <edoardo.morassutto@gmail.com>
+*/
+/* 
+    Created on : 18-dic-2013, 17.54.41
+    Author     : Edoardo Morassutto <edoardo.morassutto@gmail.com>
+*/
+
+#container {
+    width: 800px;
+    min-height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: gray;
+}
+#container > header {
+    width: 800px;
+    height: 200px;
+    text-align: center;
+}
+#container > header > h1 {
+    margin: 0px 0px 0px 0px;
+    padding-top: 30px;
+    font-size: 160px;
+    font-family: fantasy;
+    font-weight: normal;
+}
+#container > header a, h1 > a, #content a {
+    text-decoration: none;
+    color: black;
+}
+#utente p, #utente form {
+    margin: 5px 5px 0px 0px;
+    float: right;
+}
+#giorno {
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    background: darkgray;
+}
+#giorno > h2 {
+    margin: 0px 0px 0px 0px;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: monospace;
+}
+#chat {
+    float: right;
+    width: 300px;
+    min-height: 330px;
+    background: lightgrey;
+    clear: both;
+}
+#chat > h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+#chat textarea {
+    width: 280px;
+    max-width: 280px;
+    min-width: 280px;
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+    resize: none;
+    display: block;
+    margin: 1px auto;
+}
+#ruolo {
+    float: right;
+    width: 300px;
+    background: darkslategrey;
+    clear: both;
+}
+#ruolo > h1 {
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+}
+#ruolo > p {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    color: darkslategrey;
+}
+#content {
+    min-height: 660px;
+    padding-right: 300px;
+}
+hr {
+    margin-right: -300px;
+}
+#content h1, #content h2, #content h3, #content h4, #content h5, #content ul, #content i, #content p, #vivi > h1, #morti > h1 {
+    text-align: center;
+    margin: 10px 10px;
+    padding: 0px;
+}
+input[name~="login"], input[name~="signin"], input[name~="vota"], form select {
+    display: block;
+    margin: 0px auto;
+    width: 100px;
+}
+option {
+    text-align: center;
+}
+input[name~="login"], input[name~="signin"], input[name~="vota"] {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+}
+form p {
+    text-align: center;
+}
+#status {
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
+footer {
+    text-align: center;
+    color: gray;
+}
+#vivi > p, #morti > p {
+    text-align: center;
+}
+#login > table, #signin > table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+label {
+    display: inline;
+}
+label span {    
+    font-size: 10px;
+    line-height: 20px;
+}
+input[name~="user"] {
+    height: 10px;
+    display: inline;
+    line-height: 10px;
+}
+#chat input[name~="testo"] {
+    width: 220px;
+    margin-left: 10px;
+}
+#chat input[type~="radio"] {
+    width: 0.8em;
+    height: 0.8em;
+}
+#adminPage {
+    text-align: center;
+}
+#adminPage table {
+    margin: 1px auto;
+}
+#adminPage p, #adminPage h4, #adminPage span {
+    text-align: center;
+}
+#adminPage > form > input[type~="submit"] {
+    display: block;
+    margin: 0px auto;
+}
+#adminPage textarea {
+    display: block;
+    margin: 0px auto;
+    width: 400px;
+    height: 300px;
+}
+#adminPage select {
+    display: inline;
+    width: auto;
+}
+#adminPage input[name="password"] {
+    width: 100px;
+}
+#content table {
+    margin: 1px auto;
+    border-collapse: collapse;
+}
+#content table td {
+    min-width: 90px;
+    text-align: center;
+    border: 1px solid;
+}
+#content li {
+    list-style: none;
+}
+#disconnect form {
+    display: inline;
+}
+.nobr {
+    white-space: nowrap;
+}
+#elencoRuoli {
+    float: right;
+    width: 300px;
+    background: lightgrey;
+    clear: both;
+}
+#elencoRuoli table {
+    margin: 1px auto;
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+}

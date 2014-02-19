@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Lupus In Tabula
+${licensePrefix}Created by Edoardo Morassutto <edoardo.morassutto@gmail.com>
+<#if licenseLast??>
+${licenseLast}
+</#if>

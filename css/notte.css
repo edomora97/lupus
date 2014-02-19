@@ -1,0 +1,15 @@
+/*
+Lupus In Tabula
+Created by Edoardo Morassutto <edoardo.morassutto@gmail.com>
+*/
+/* 
+    Created on : 18-dic-2013, 18.20.17
+    Author     : Edoardo Morassutto <edoardo.morassutto@gmail.com>
+*/
+
+header {
+    background: url("../img/Notte.gif");
+}
+#utente p, #utente form {
+    color: gray;
+}
